@@ -1,0 +1,79 @@
+ 
+html{
+	scroll-behavior: smooth;
+	transition: .4s ease all;
+} 
+
+/* Change Brand Name Font*/
+.navbar-brand{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+	text-transform: uppercase; 
+}
+/*Change Navigation color*/
+.navbar .custom-nav .nav-item a{
+	color: #fff;
+	font-weight: bold;
+}
+
+.navbar .navbar-nav .custom-nav .nav-item a:hover {
+	color: white;
+}
+/* Make Header Image Responsive*/
+.back-image{
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	border-radius: 0px;
+	min-height: 90vh;
+	margin-top: 50px;
+}
+
+/*header image sub-title*/
+ .font-italic{
+	font-size: 24px;
+}
+
+ .fi-color{
+	color: #dc3545;
+}
+
+.fi-color:hover{
+	color: #e994a2;
+}
+
+.sidebar-sticky ul a{
+	display: block;
+	height: 100%;
+	width: 100%;
+	transition: .4s;
+}
+
+
+a{
+	color: white;
+  color: #3498DB;
+}
+
+.active{
+	color: white;
+	background-color: #4169E1;
+}
+
+ a:hover{
+	color: #00BFFF;
+	opacity: 0.7;
+}
+
+
+
+/* Margin For Welcome To DUGKART ENDEAVOUR*/
+.mainHeading{
+	margin-top: 50px;
+}
+/* */
+.myclass{
+	margin-top: 350px;
+	text-align: center;
+}
